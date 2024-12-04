@@ -29,7 +29,15 @@
     "krew@latest",
     "kubectx@latest",
     "kubectl-neat@latest",
-    "fish@latest"
+    "fish@latest",
+    "vim@latest",
+    "git@latest",
+    "ansible@latest",
+    "pre-commit@latest",
+    "oh-my-posh@latest",
+    "curl@latest",
+    "wget@latest",
+    "mongosh@latest"
   ],
   "shell": {
     "init_hook": [
