@@ -19,7 +19,16 @@
     "terraform@latest",
     "postgresql@latest",
     "gh@latest",
-    "fluxcd@latest"
+    "fluxcd@latest",
+    "azure-cli@latest",
+    "bat@latest",
+    "fzf@latest",
+    "gdu@latest",
+    "eza@latest",
+    "vcluster@latest",
+    "krew@latest",
+    "kubectx@latest",
+    "kubectl-neat@latest"
   ],
   "shell": {
     "init_hook": [
