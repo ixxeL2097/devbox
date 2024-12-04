@@ -28,7 +28,8 @@
     "vcluster@latest",
     "krew@latest",
     "kubectx@latest",
-    "kubectl-neat@latest"
+    "kubectl-neat@latest",
+    "fish@latest"
   ],
   "shell": {
     "init_hook": [
