@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.6/.schema/devbox.schema.json",
   "packages": [
     "yq-go@latest",
+    "python-full@3.12",
     "docker-buildx@latest",
     "docker-client@latest",
     "docker-compose@latest",
     "go-task@latest",
     "crane@latest",
     "skopeo@latest",
-    "python312Packages.pyjwt@latest",
     "argocd@latest",
     "kubernetes-helm@latest",
     "kubectl@latest",
@@ -37,11 +37,21 @@
     "oh-my-posh@latest",
     "curl@latest",
     "wget@latest",
-    "mongosh@latest"
+    "mongosh@latest",
+    "nodejs-slim@18.20.5",
+    "process-compose@latest",
+    "podman@latest",
+    "podman-compose@latest",
+    "python312Packages.matplotlib@latest",
+    "python312Packages.numpy@latest",
+    "python312Packages.requests@latest"
   ],
+  "env": {
+    "DEVBOX_SYSTEM_BASH": "/usr/bin/fish"
+  },
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "echo 'good'"
     ],
     "scripts": {
       "test": [
